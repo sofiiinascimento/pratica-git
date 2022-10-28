@@ -1,5 +1,14 @@
 package exc1;
 
-public class Exercicio1 {
+import java.util.Scanner;
 
+public class Exercicio1 {
+	public static void main(String[] args) {
+
+		Scanner leitura = new Scanner(System.in);
+
+		String variavelLeitura = leitura.nextLine();
+
+		System.out.println(variavelLeitura);
+	}
 }
